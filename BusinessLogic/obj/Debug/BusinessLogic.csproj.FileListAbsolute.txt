@@ -1,0 +1,33 @@
+C:\Users\leo\Documents\leo\solutia\gitcONTROLtAREAS\controltareas\ProyectosWeb\BusinessLogic\bin\Debug\BusinessLogic.dll
+C:\Users\leo\Documents\leo\solutia\gitcONTROLtAREAS\controltareas\ProyectosWeb\BusinessLogic\bin\Debug\BusinessLogic.pdb
+C:\Users\leo\Documents\leo\solutia\gitcONTROLtAREAS\controltareas\ProyectosWeb\BusinessLogic\bin\Debug\DAOS.dll
+C:\Users\leo\Documents\leo\solutia\gitcONTROLtAREAS\controltareas\ProyectosWeb\BusinessLogic\bin\Debug\EPPlus.dll
+C:\Users\leo\Documents\leo\solutia\gitcONTROLtAREAS\controltareas\ProyectosWeb\BusinessLogic\bin\Debug\Models.dll
+C:\Users\leo\Documents\leo\solutia\gitcONTROLtAREAS\controltareas\ProyectosWeb\BusinessLogic\bin\Debug\DAOS.pdb
+C:\Users\leo\Documents\leo\solutia\gitcONTROLtAREAS\controltareas\ProyectosWeb\BusinessLogic\bin\Debug\Models.pdb
+C:\Users\leo\Documents\leo\solutia\gitcONTROLtAREAS\controltareas\ProyectosWeb\BusinessLogic\bin\Debug\EPPlus.xml
+C:\Users\leo\Documents\leo\solutia\gitcONTROLtAREAS\controltareas\ProyectosWeb\BusinessLogic\obj\Debug\BusinessLogic.csprojResolveAssemblyReference.cache
+C:\Users\leo\Documents\leo\solutia\gitcONTROLtAREAS\controltareas\ProyectosWeb\BusinessLogic\obj\Debug\BusinessLogic.dll
+C:\Users\leo\Documents\leo\solutia\gitcONTROLtAREAS\controltareas\ProyectosWeb\BusinessLogic\obj\Debug\BusinessLogic.pdb
+C:\Users\leods\Desktop\respaldo\solutia\gitcONTROLtAREAS\controltareas\ProyectosWeb\BusinessLogic\bin\Debug\BusinessLogic.dll
+C:\Users\leods\Desktop\respaldo\solutia\gitcONTROLtAREAS\controltareas\ProyectosWeb\BusinessLogic\bin\Debug\BusinessLogic.pdb
+C:\Users\leods\Desktop\respaldo\solutia\gitcONTROLtAREAS\controltareas\ProyectosWeb\BusinessLogic\bin\Debug\DAOS.dll
+C:\Users\leods\Desktop\respaldo\solutia\gitcONTROLtAREAS\controltareas\ProyectosWeb\BusinessLogic\bin\Debug\EPPlus.dll
+C:\Users\leods\Desktop\respaldo\solutia\gitcONTROLtAREAS\controltareas\ProyectosWeb\BusinessLogic\bin\Debug\Models.dll
+C:\Users\leods\Desktop\respaldo\solutia\gitcONTROLtAREAS\controltareas\ProyectosWeb\BusinessLogic\bin\Debug\DAOS.pdb
+C:\Users\leods\Desktop\respaldo\solutia\gitcONTROLtAREAS\controltareas\ProyectosWeb\BusinessLogic\bin\Debug\Models.pdb
+C:\Users\leods\Desktop\respaldo\solutia\gitcONTROLtAREAS\controltareas\ProyectosWeb\BusinessLogic\bin\Debug\EPPlus.xml
+C:\Users\leods\Desktop\respaldo\solutia\gitcONTROLtAREAS\controltareas\ProyectosWeb\BusinessLogic\obj\Debug\BusinessLogic.csprojResolveAssemblyReference.cache
+C:\Users\leods\Desktop\respaldo\solutia\gitcONTROLtAREAS\controltareas\ProyectosWeb\BusinessLogic\obj\Debug\BusinessLogic.dll
+C:\Users\leods\Desktop\respaldo\solutia\gitcONTROLtAREAS\controltareas\ProyectosWeb\BusinessLogic\obj\Debug\BusinessLogic.pdb
+C:\Users\Luis Fernando Garcia\Documents\Visual Studio 2010\Projects\ProyectosWeb_v3\BusinessLogic\bin\Debug\BusinessLogic.dll
+C:\Users\Luis Fernando Garcia\Documents\Visual Studio 2010\Projects\ProyectosWeb_v3\BusinessLogic\bin\Debug\BusinessLogic.pdb
+C:\Users\Luis Fernando Garcia\Documents\Visual Studio 2010\Projects\ProyectosWeb_v3\BusinessLogic\bin\Debug\DAOS.dll
+C:\Users\Luis Fernando Garcia\Documents\Visual Studio 2010\Projects\ProyectosWeb_v3\BusinessLogic\bin\Debug\EPPlus.dll
+C:\Users\Luis Fernando Garcia\Documents\Visual Studio 2010\Projects\ProyectosWeb_v3\BusinessLogic\bin\Debug\Models.dll
+C:\Users\Luis Fernando Garcia\Documents\Visual Studio 2010\Projects\ProyectosWeb_v3\BusinessLogic\bin\Debug\DAOS.pdb
+C:\Users\Luis Fernando Garcia\Documents\Visual Studio 2010\Projects\ProyectosWeb_v3\BusinessLogic\bin\Debug\Models.pdb
+C:\Users\Luis Fernando Garcia\Documents\Visual Studio 2010\Projects\ProyectosWeb_v3\BusinessLogic\bin\Debug\EPPlus.xml
+C:\Users\Luis Fernando Garcia\Documents\Visual Studio 2010\Projects\ProyectosWeb_v3\BusinessLogic\obj\Debug\BusinessLogic.csprojResolveAssemblyReference.cache
+C:\Users\Luis Fernando Garcia\Documents\Visual Studio 2010\Projects\ProyectosWeb_v3\BusinessLogic\obj\Debug\BusinessLogic.dll
+C:\Users\Luis Fernando Garcia\Documents\Visual Studio 2010\Projects\ProyectosWeb_v3\BusinessLogic\obj\Debug\BusinessLogic.pdb

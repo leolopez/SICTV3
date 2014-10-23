@@ -1,0 +1,44 @@
+C:\Users\Luis Fernando Garcia\Documents\Visual Studio 2010\Projects\ProyectosWeb_v2\BusinessLogic\bin\Release\BusinessLogic.dll
+C:\Users\Luis Fernando Garcia\Documents\Visual Studio 2010\Projects\ProyectosWeb_v2\BusinessLogic\bin\Release\BusinessLogic.pdb
+C:\Users\Luis Fernando Garcia\Documents\Visual Studio 2010\Projects\ProyectosWeb_v2\BusinessLogic\bin\Release\DAOS.dll
+C:\Users\Luis Fernando Garcia\Documents\Visual Studio 2010\Projects\ProyectosWeb_v2\BusinessLogic\bin\Release\EPPlus.dll
+C:\Users\Luis Fernando Garcia\Documents\Visual Studio 2010\Projects\ProyectosWeb_v2\BusinessLogic\bin\Release\Models.dll
+C:\Users\Luis Fernando Garcia\Documents\Visual Studio 2010\Projects\ProyectosWeb_v2\BusinessLogic\bin\Release\DAOS.pdb
+C:\Users\Luis Fernando Garcia\Documents\Visual Studio 2010\Projects\ProyectosWeb_v2\BusinessLogic\bin\Release\Models.pdb
+C:\Users\Luis Fernando Garcia\Documents\Visual Studio 2010\Projects\ProyectosWeb_v2\BusinessLogic\bin\Release\EPPlus.xml
+C:\Users\Luis Fernando Garcia\Documents\Visual Studio 2010\Projects\ProyectosWeb_v2\BusinessLogic\obj\Release\BusinessLogic.csprojResolveAssemblyReference.cache
+C:\Users\Luis Fernando Garcia\Documents\Visual Studio 2010\Projects\ProyectosWeb_v2\BusinessLogic\obj\Release\BusinessLogic.dll
+C:\Users\Luis Fernando Garcia\Documents\Visual Studio 2010\Projects\ProyectosWeb_v2\BusinessLogic\obj\Release\BusinessLogic.pdb
+C:\Users\Luis Fernando Garcia\Documents\Visual Studio 2010\Projects\ProyectosWeb_v3\BusinessLogic\bin\Release\BusinessLogic.dll
+C:\Users\Luis Fernando Garcia\Documents\Visual Studio 2010\Projects\ProyectosWeb_v3\BusinessLogic\bin\Release\BusinessLogic.pdb
+C:\Users\Luis Fernando Garcia\Documents\Visual Studio 2010\Projects\ProyectosWeb_v3\BusinessLogic\bin\Release\DAOS.dll
+C:\Users\Luis Fernando Garcia\Documents\Visual Studio 2010\Projects\ProyectosWeb_v3\BusinessLogic\bin\Release\EPPlus.dll
+C:\Users\Luis Fernando Garcia\Documents\Visual Studio 2010\Projects\ProyectosWeb_v3\BusinessLogic\bin\Release\Models.dll
+C:\Users\Luis Fernando Garcia\Documents\Visual Studio 2010\Projects\ProyectosWeb_v3\BusinessLogic\bin\Release\DAOS.pdb
+C:\Users\Luis Fernando Garcia\Documents\Visual Studio 2010\Projects\ProyectosWeb_v3\BusinessLogic\bin\Release\Models.pdb
+C:\Users\Luis Fernando Garcia\Documents\Visual Studio 2010\Projects\ProyectosWeb_v3\BusinessLogic\bin\Release\EPPlus.xml
+C:\Users\Luis Fernando Garcia\Documents\Visual Studio 2010\Projects\ProyectosWeb_v3\BusinessLogic\obj\Release\BusinessLogic.csprojResolveAssemblyReference.cache
+C:\Users\Luis Fernando Garcia\Documents\Visual Studio 2010\Projects\ProyectosWeb_v3\BusinessLogic\obj\Release\BusinessLogic.dll
+C:\Users\Luis Fernando Garcia\Documents\Visual Studio 2010\Projects\ProyectosWeb_v3\BusinessLogic\obj\Release\BusinessLogic.pdb
+C:\Users\Luis Fernando Garcia\Documents\Visual Studio 2010\Projects\ProyectosWeb_v3 PUBLICADO\BusinessLogic\bin\Release\BusinessLogic.dll
+C:\Users\Luis Fernando Garcia\Documents\Visual Studio 2010\Projects\ProyectosWeb_v3 PUBLICADO\BusinessLogic\bin\Release\BusinessLogic.pdb
+C:\Users\Luis Fernando Garcia\Documents\Visual Studio 2010\Projects\ProyectosWeb_v3 PUBLICADO\BusinessLogic\bin\Release\DAOS.dll
+C:\Users\Luis Fernando Garcia\Documents\Visual Studio 2010\Projects\ProyectosWeb_v3 PUBLICADO\BusinessLogic\bin\Release\EPPlus.dll
+C:\Users\Luis Fernando Garcia\Documents\Visual Studio 2010\Projects\ProyectosWeb_v3 PUBLICADO\BusinessLogic\bin\Release\Models.dll
+C:\Users\Luis Fernando Garcia\Documents\Visual Studio 2010\Projects\ProyectosWeb_v3 PUBLICADO\BusinessLogic\bin\Release\DAOS.pdb
+C:\Users\Luis Fernando Garcia\Documents\Visual Studio 2010\Projects\ProyectosWeb_v3 PUBLICADO\BusinessLogic\bin\Release\Models.pdb
+C:\Users\Luis Fernando Garcia\Documents\Visual Studio 2010\Projects\ProyectosWeb_v3 PUBLICADO\BusinessLogic\bin\Release\EPPlus.xml
+C:\Users\Luis Fernando Garcia\Documents\Visual Studio 2010\Projects\ProyectosWeb_v3 PUBLICADO\BusinessLogic\obj\Release\BusinessLogic.csprojResolveAssemblyReference.cache
+C:\Users\Luis Fernando Garcia\Documents\Visual Studio 2010\Projects\ProyectosWeb_v3 PUBLICADO\BusinessLogic\obj\Release\BusinessLogic.dll
+C:\Users\Luis Fernando Garcia\Documents\Visual Studio 2010\Projects\ProyectosWeb_v3 PUBLICADO\BusinessLogic\obj\Release\BusinessLogic.pdb
+C:\Users\leods\Desktop\ProyectosWeb_v3 PUBLICADO\ProyectosWeb_v3 PUBLICADO\BusinessLogic\bin\Release\BusinessLogic.dll
+C:\Users\leods\Desktop\ProyectosWeb_v3 PUBLICADO\ProyectosWeb_v3 PUBLICADO\BusinessLogic\bin\Release\BusinessLogic.pdb
+C:\Users\leods\Desktop\ProyectosWeb_v3 PUBLICADO\ProyectosWeb_v3 PUBLICADO\BusinessLogic\bin\Release\DAOS.dll
+C:\Users\leods\Desktop\ProyectosWeb_v3 PUBLICADO\ProyectosWeb_v3 PUBLICADO\BusinessLogic\bin\Release\EPPlus.dll
+C:\Users\leods\Desktop\ProyectosWeb_v3 PUBLICADO\ProyectosWeb_v3 PUBLICADO\BusinessLogic\bin\Release\Models.dll
+C:\Users\leods\Desktop\ProyectosWeb_v3 PUBLICADO\ProyectosWeb_v3 PUBLICADO\BusinessLogic\bin\Release\DAOS.pdb
+C:\Users\leods\Desktop\ProyectosWeb_v3 PUBLICADO\ProyectosWeb_v3 PUBLICADO\BusinessLogic\bin\Release\Models.pdb
+C:\Users\leods\Desktop\ProyectosWeb_v3 PUBLICADO\ProyectosWeb_v3 PUBLICADO\BusinessLogic\bin\Release\EPPlus.xml
+C:\Users\leods\Desktop\ProyectosWeb_v3 PUBLICADO\ProyectosWeb_v3 PUBLICADO\BusinessLogic\obj\Release\BusinessLogic.csprojResolveAssemblyReference.cache
+C:\Users\leods\Desktop\ProyectosWeb_v3 PUBLICADO\ProyectosWeb_v3 PUBLICADO\BusinessLogic\obj\Release\BusinessLogic.dll
+C:\Users\leods\Desktop\ProyectosWeb_v3 PUBLICADO\ProyectosWeb_v3 PUBLICADO\BusinessLogic\obj\Release\BusinessLogic.pdb

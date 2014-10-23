@@ -1,0 +1,42 @@
+﻿.PerfilAcList
+	{ float: left; 
+	
+	}
+.contTreePerfil
+	{  float: left; 
+   width:70%;
+	
+	}
+	
+	.active a {
+    color:blue;    
+}
+	
+	.liacordion
+	{ list-style-type:none;	
+	  
+	}
+	
+	
+	a:hover { color: blue;
+	           }
+	           .linkselect { color: blue;
+	           }
+	           activo:hover { color: blue;
+	           }
+	           .linkselect { color: blue;
+	           }
+	           
+	           .letras
+	           {
+	           color:#A00000;
+	           	}
+	           	 .letrasub
+	           {
+	           	color:Blue;
+	           	}
+	           	 .letrasub1
+	           {
+	           	color:Black;
+	           	}
+
