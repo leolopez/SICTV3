@@ -772,7 +772,7 @@ function (value, element, params) {
                                     <asp:LinkButton CssClass="linkselect"  ID="LinkcuentaUsSeg" CommandName="sub,,2" runat="server" OnClick="CuentaUsuarioOnClick">Cuenta</asp:LinkButton></li>                                                                
                             </ul>
                         </li>
-                        <li  >
+                        <li class="liacordion" >
                             <asp:LinkButton ID="LinkGruposSeg" CssClass="letrasub" CommandName="Grupos,,3" runat="server" OnClick="GruposOnClick">Grupos</asp:LinkButton></li>
                         <li class="liacordion">
                             <asp:LinkButton ID="LinkPerfilesSeg" CommandName="Perfiles,,4" runat="server" OnClick="PerfilesOnClick">Perfiles</asp:LinkButton></li>
