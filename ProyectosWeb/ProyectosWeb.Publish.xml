@@ -2,8 +2,7 @@
 <publishData>
   <publishProfile publishUrl="C:\Users\leods\Desktop\WebSite" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Perfil1" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="False">
     <file relUrl="bin/de/System.Spatial.resources.dll" publishTime="07/10/2014 09:11:37" />
-    <file relUrl="LoginSources/js/bootstrap-scrollspy.js" publishTime="07/10/2014 15:37:45" />
-    <file relUrl="validacion/jquery-1.7.1.min.js" publishTime="07/10/2014 09:11:35" />
+    <file relUrl="bin/nl/AjaxControlToolkit.resources.dll" publishTime="07/10/2014 09:11:35" />
     <file relUrl="LoginSources/img/phones.png" publishTime="07/10/2014 15:37:45" />
     <file relUrl="bin/de/Microsoft.Data.OData.resources.dll" publishTime="07/10/2014 09:11:36" />
     <file relUrl="LoginSources/img/screenshot.jpg" publishTime="07/10/2014 15:37:45" />
@@ -11,10 +10,12 @@
     <file relUrl="LoginSources/fancybox/fancy_shadow_w.png" publishTime="07/10/2014 15:37:45" />
     <file relUrl="bin/ProyectosWeb.pdb" publishTime="10/01/2014 12:25:43" />
     <file relUrl="bin/ar/AjaxControlToolkit.resources.dll" publishTime="07/10/2014 09:11:35" />
-    <file relUrl="bin/ja/System.Spatial.resources.dll" publishTime="07/10/2014 09:11:37" />
+    <file relUrl="LoginSources/fancybox/fancy_close.png" publishTime="07/10/2014 15:37:45" />
+    <file relUrl="bin/HtmlAgilityPack.dll" publishTime="07/10/2014 09:11:36" />
     <file relUrl="Views/Login/Inicio.aspx" publishTime="09/23/2014 18:45:06" />
     <file relUrl="CapturaTareas.aspx" publishTime="08/14/2014 16:35:59" />
     <file relUrl="bin/System.Spatial.dll" publishTime="07/10/2014 09:11:37" />
+    <file relUrl="bin/zh-Hans/System.Spatial.resources.dll" publishTime="07/10/2014 09:11:37" />
     <file relUrl="bin/ru/Microsoft.Data.Edm.resources.dll" publishTime="07/10/2014 09:11:36" />
     <file relUrl="bin/DAOS.dll" publishTime="10/01/2014 12:25:43" />
     <file relUrl="LoginSources/font/stylesheet.css" publishTime="07/10/2014 15:37:45" />
@@ -30,6 +31,7 @@
     <file relUrl="bin/fr/System.Spatial.resources.dll" publishTime="07/10/2014 09:11:37" />
     <file relUrl="jquery-tree-checkboxes/minified/jquery.tree.min.js" publishTime="07/18/2014 18:20:40" />
     <file relUrl="LoginSources/fancybox/blank.gif" publishTime="07/10/2014 15:37:45" />
+    <file relUrl="bin/Models.pdb" publishTime="10/01/2014 12:25:42" />
     <file relUrl="LoginSources/js/bootstrap-collapse.js" publishTime="07/10/2014 15:37:45" />
     <file relUrl="bin/pt/AjaxControlToolkit.resources.dll" publishTime="07/10/2014 09:11:35" />
     <file relUrl="epplus/EPPlus.dll" publishTime="08/28/2014 12:47:55" />
@@ -40,20 +42,19 @@
     <file relUrl="LoginSources/img/available-on-the-app-store.png" publishTime="07/10/2014 15:37:45" />
     <file relUrl="LoginSources/fancybox/fancy_shadow_e.png" publishTime="07/10/2014 15:37:45" />
     <file relUrl="bin/fr/AjaxControlToolkit.resources.dll" publishTime="07/10/2014 09:11:35" />
-    <file relUrl="bin/ko/AjaxControlToolkit.resources.dll" publishTime="07/10/2014 09:11:35" />
+    <file relUrl="bin/ja/System.Spatial.resources.dll" publishTime="07/10/2014 09:11:37" />
     <file relUrl="bin/AjaxControlToolkit.dll" publishTime="07/10/2014 09:11:35" />
-    <file relUrl="validacion/ValidationEngine.css" publishTime="07/10/2014 09:11:35" />
     <file relUrl="bin/it/Microsoft.Data.OData.resources.dll" publishTime="07/10/2014 09:11:36" />
     <file relUrl="bin/AjaxMin.dll" publishTime="07/10/2014 09:11:35" />
     <file relUrl="css/Seguridad/Seguridad.css" publishTime="09/01/2014 15:42:11" />
     <file relUrl="LoginSources/fancybox/jquery.fancybox-1.3.4.js" publishTime="07/10/2014 15:37:45" />
     <file relUrl="LoginSources/fancybox/fancy_title_over.png" publishTime="07/10/2014 15:37:45" />
-    <file relUrl="scripts/ConfirmDialog/jquery.easy-confirm-dialog.min.js" publishTime="08/11/2014 12:22:35" />
     <file relUrl="LoginSources/fancybox/fancybox-x.png" publishTime="07/10/2014 15:37:45" />
     <file relUrl="bin/zh-Hant/Microsoft.Data.OData.resources.dll" publishTime="07/10/2014 09:11:36" />
     <file relUrl="bin/fr/Microsoft.Data.Edm.resources.dll" publishTime="07/10/2014 09:11:36" />
     <file relUrl="bin/tr-TR/AjaxControlToolkit.resources.dll" publishTime="07/10/2014 09:11:35" />
     <file relUrl="bin/he/AjaxControlToolkit.resources.dll" publishTime="07/10/2014 09:11:35" />
+    <file relUrl="bin/ko/AjaxControlToolkit.resources.dll" publishTime="07/10/2014 09:11:35" />
     <file relUrl="LoginSources/js/bootstrap.js" publishTime="07/10/2014 15:37:45" />
     <file relUrl="LoginSources/fancybox/fancy_title_main.png" publishTime="07/10/2014 15:37:45" />
     <file relUrl="bin/zh-Hant/Microsoft.Data.Edm.resources.dll" publishTime="07/10/2014 09:11:36" />
@@ -78,30 +79,29 @@
     <file relUrl="bin/Models.dll" publishTime="10/01/2014 12:25:42" />
     <file relUrl="bin/zh-CHS/AjaxControlToolkit.resources.dll" publishTime="07/10/2014 09:11:35" />
     <file relUrl="LoginSources/fancybox/fancy_shadow_s.png" publishTime="07/10/2014 15:37:45" />
-    <file relUrl="bin/HtmlAgilityPack.dll" publishTime="07/10/2014 09:11:36" />
+    <file relUrl="validacion/ValidationEngine.css" publishTime="07/10/2014 09:11:35" />
     <file relUrl="bin/ko/Microsoft.Data.OData.resources.dll" publishTime="07/10/2014 09:11:36" />
     <file relUrl="LoginSources/favicon.ico" publishTime="07/10/2014 15:37:45" />
     <file relUrl="bin/ru/System.Spatial.resources.dll" publishTime="07/10/2014 09:11:37" />
-    <file relUrl="bin/nl/AjaxControlToolkit.resources.dll" publishTime="07/10/2014 09:11:35" />
+    <file relUrl="LoginSources/fancybox/fancy_nav_left.png" publishTime="07/10/2014 15:37:45" />
     <file relUrl="bin/zh-Hans/Microsoft.Data.OData.resources.dll" publishTime="07/10/2014 09:11:36" />
     <file relUrl="LoginSources/css/media-queries.css" publishTime="07/10/2014 15:37:45" />
-    <file relUrl="bin/Models.pdb" publishTime="10/01/2014 12:25:42" />
+    <file relUrl="scripts/ConfirmDialog/jquery.easy-confirm-dialog.min.js" publishTime="08/11/2014 12:22:35" />
     <file relUrl="LoginSources/fancybox/fancy_shadow_se.png" publishTime="07/10/2014 15:37:45" />
     <file relUrl="bin/it/AjaxControlToolkit.resources.dll" publishTime="07/10/2014 09:11:35" />
     <file relUrl="bin/EPPlus.xml" publishTime="08/28/2014 12:47:55" />
-    <file relUrl="bin/ko/System.Spatial.resources.dll" publishTime="07/10/2014 09:11:37" />
     <file relUrl="bin/Microsoft.Data.OData.xml" publishTime="07/10/2014 09:11:36" />
     <file relUrl="LoginSources/fancybox/jquery.fancybox-1.3.4.pack.js" publishTime="07/10/2014 15:37:45" />
     <file relUrl="LoginSources/img/bg.png" publishTime="07/10/2014 15:37:45" />
     <file relUrl="bin/zh-CHT/AjaxControlToolkit.resources.dll" publishTime="07/10/2014 09:11:35" />
     <file relUrl="scripts/seguridad/Seguridad.js" publishTime="08/12/2014 12:08:39" />
-    <file relUrl="LoginSources/fancybox/fancy_close.png" publishTime="07/10/2014 15:37:45" />
+    <file relUrl="LoginSources/js/bootstrap-scrollspy.js" publishTime="07/10/2014 15:37:45" />
     <file relUrl="bin/zh-Hans/Microsoft.Data.Edm.resources.dll" publishTime="07/10/2014 09:11:36" />
     <file relUrl="bin/Microsoft.WindowsAzure.Storage.dll" publishTime="07/10/2014 09:11:37" />
     <file relUrl="bin/BCrypt.Net.dll" publishTime="07/10/2014 09:11:35" />
     <file relUrl="bin/ru/Microsoft.Data.OData.resources.dll" publishTime="07/10/2014 09:11:36" />
     <file relUrl="LoginSources/fancybox/fancy_shadow_sw.png" publishTime="07/10/2014 15:37:45" />
-    <file relUrl="LoginSources/fancybox/fancy_nav_left.png" publishTime="07/10/2014 15:37:45" />
+    <file relUrl="bin/ko/System.Spatial.resources.dll" publishTime="07/10/2014 09:11:37" />
     <file relUrl="bin/fr/Microsoft.Data.OData.resources.dll" publishTime="07/10/2014 09:11:36" />
     <file relUrl="bin/Microsoft.WindowsAzure.Storage.pdb" publishTime="07/10/2014 09:11:38" />
     <file relUrl="bin/Microsoft.Data.OData.dll" publishTime="07/10/2014 09:11:36" />
@@ -122,7 +122,7 @@
     <file relUrl="LoginSources/css/styles.css" publishTime="07/10/2014 15:37:45" />
     <file relUrl="bin/it/System.Spatial.resources.dll" publishTime="07/10/2014 09:11:37" />
     <file relUrl="LoginSources/fancybox/fancy_title_right.png" publishTime="07/10/2014 15:37:45" />
-    <file relUrl="bin/zh-Hans/System.Spatial.resources.dll" publishTime="07/10/2014 09:11:37" />
+    <file relUrl="validacion/jquery-1.7.1.min.js" publishTime="07/10/2014 09:11:35" />
     <file relUrl="LoginSources/fancybox/fancy_loading.png" publishTime="07/10/2014 15:37:45" />
     <file relUrl="bin/Microsoft.WindowsAzure.Configuration.dll" publishTime="07/10/2014 09:11:37" />
     <file relUrl="bin/Microsoft.Data.Edm.xml" publishTime="07/10/2014 09:11:36" />
@@ -134,10 +134,10 @@
     <file relUrl="bin/cs/AjaxControlToolkit.resources.dll" publishTime="07/10/2014 09:11:35" />
     <file relUrl="bin/es/Microsoft.Data.OData.resources.dll" publishTime="07/10/2014 09:11:36" />
   </publishProfile>
-  <publishProfile publishUrl="C:\Users\leods\Desktop\docs\PublicarSictv3" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="PublicarIIS" publishMethod="FileSystem" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+  <publishProfile publishUrl="C:\Users\leods\Desktop\docs\publicarcsssict" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="PublicarIIS" publishMethod="FileSystem" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
     <file relUrl="LoginSources/fancybox/blank.gif" publishTime="07/10/2014 15:37:46" />
     <file relUrl="LoginSources/fancybox/fancy_shadow_se.png" publishTime="07/10/2014 15:37:46" />
-    <file relUrl="bin/ProyectosWeb.pdb" publishTime="10/23/2014 18:06:48" />
+    <file relUrl="bin/ProyectosWeb.pdb" publishTime="10/24/2014 11:53:00" />
     <file relUrl="LoginSources/fancybox/fancy_shadow_n.png" publishTime="07/10/2014 15:37:46" />
     <file relUrl="LoginSources/img/app_icon.png" publishTime="07/10/2014 15:37:46" />
     <file relUrl="bin/cs/AjaxControlToolkit.resources.dll" publishTime="07/10/2014 09:11:36" />
@@ -151,32 +151,36 @@
     <file relUrl="LoginSources/favicon.ico" publishTime="07/10/2014 15:37:46" />
     <file relUrl="LoginSources/img/arrow-top.png" publishTime="07/10/2014 15:37:46" />
     <file relUrl="LoginSources/img/phones.png" publishTime="07/10/2014 15:37:46" />
+    <file relUrl="images/ui-bg_flat_0_aaaaaa_40x100.png" publishTime="10/24/2014 10:17:50" />
     <file relUrl="bin/Microsoft.WindowsAzure.Configuration.dll" publishTime="07/10/2014 09:11:38" />
     <file relUrl="LoginSources/img/bg.png" publishTime="07/10/2014 15:37:46" />
     <file relUrl="Resources/fonts/glyphicons-halflings-regular.svg" publishTime="10/06/2014 16:50:36" />
     <file relUrl="LoginSources/fancybox/jquery.fancybox-1.3.4.pack.js" publishTime="07/10/2014 15:37:46" />
     <file relUrl="validacion/jquery-1.7.1.min.js" publishTime="07/10/2014 09:11:36" />
-    <file relUrl="bin/DAOS.pdb" publishTime="10/23/2014 18:06:47" />
+    <file relUrl="bin/DAOS.pdb" publishTime="10/24/2014 11:52:59" />
     <file relUrl="LoginSources/fancybox/jquery.easing-1.3.pack.js" publishTime="07/10/2014 15:37:46" />
     <file relUrl="bin/Microsoft.WindowsAzure.Storage.dll" publishTime="07/10/2014 09:11:38" />
     <file relUrl="bin/AjaxControlToolkit.dll" publishTime="07/10/2014 09:11:36" />
+    <file relUrl="css/jquery-ui.css" publishTime="10/24/2014 10:31:37" />
     <file relUrl="LoginSources/css/bootstrap.min.css" publishTime="08/21/2014 19:06:44" />
-    <file relUrl="Web.config" publishTime="10/23/2014 18:12:10" />
+    <file relUrl="Web.config" publishTime="10/24/2014 11:53:04" />
     <file relUrl="bin/zh-Hans/Microsoft.Data.Edm.resources.dll" publishTime="07/10/2014 09:11:38" />
-    <file relUrl="css/Seguridad/Seguridad.css" publishTime="10/23/2014 15:19:45" />
-    <file relUrl="bin/Models.dll" publishTime="10/23/2014 18:06:47" />
+    <file relUrl="css/Seguridad/Seguridad.css" publishTime="10/24/2014 10:49:21" />
+    <file relUrl="images/ui-icons_2e83ff_256x240.png" publishTime="10/24/2014 10:10:33" />
+    <file relUrl="bin/Models.dll" publishTime="10/24/2014 11:52:59" />
     <file relUrl="LoginSources/fancybox/fancy_title_over.png" publishTime="07/10/2014 15:37:46" />
     <file relUrl="scripts/ConfirmDialog/jquery.easy-confirm-dialog.min.js" publishTime="08/11/2014 12:22:36" />
     <file relUrl="bin/HtmlAgilityPack.xml" publishTime="07/10/2014 09:11:38" />
+    <file relUrl="images/ui-icons_888888_256x240.png" publishTime="10/24/2014 10:10:33" />
     <file relUrl="Views/Login/Inicio.aspx" publishTime="10/23/2014 13:25:47" />
     <file relUrl="bin/HtmlAgilityPack.dll" publishTime="07/10/2014 09:11:38" />
     <file relUrl="bin/es/AjaxControlToolkit.resources.dll" publishTime="07/10/2014 09:11:36" />
     <file relUrl="LoginSources/fancybox/fancybox-y.png" publishTime="07/10/2014 15:37:46" />
-    <file relUrl="Main.aspx" publishTime="10/23/2014 18:03:52" />
+    <file relUrl="Main.aspx" publishTime="10/24/2014 11:52:51" />
     <file relUrl="bin/ru/Microsoft.Data.OData.resources.dll" publishTime="07/10/2014 09:11:38" />
     <file relUrl="LoginSources/img/android_app_on_play_logo_large.png" publishTime="07/10/2014 15:37:46" />
     <file relUrl="bin/pt/AjaxControlToolkit.resources.dll" publishTime="07/10/2014 09:11:36" />
-    <file relUrl="bin/BusinessLogic.dll" publishTime="10/23/2014 18:06:48" />
+    <file relUrl="bin/BusinessLogic.dll" publishTime="10/24/2014 11:52:59" />
     <file relUrl="bin/zh-Hant/System.Spatial.resources.dll" publishTime="07/10/2014 09:11:38" />
     <file relUrl="bin/fr/Microsoft.Data.Edm.resources.dll" publishTime="07/10/2014 09:11:38" />
     <file relUrl="LoginSources/fancybox/fancy_shadow_ne.png" publishTime="07/10/2014 15:37:46" />
@@ -206,14 +210,16 @@
     <file relUrl="bin/ja/Microsoft.Data.Edm.resources.dll" publishTime="07/10/2014 09:11:38" />
     <file relUrl="bin/ja/Microsoft.Data.OData.resources.dll" publishTime="07/10/2014 09:11:38" />
     <file relUrl="LoginSources/fancybox/fancy_nav_right.png" publishTime="07/10/2014 15:37:46" />
+    <file relUrl="images/ui-bg_glass_95_fef1ec_1x400.png" publishTime="10/24/2014 10:17:50" />
     <file relUrl="bin/it/System.Spatial.resources.dll" publishTime="07/10/2014 09:11:38" />
     <file relUrl="bin/it/Microsoft.Data.OData.resources.dll" publishTime="07/10/2014 09:11:38" />
     <file relUrl="bin/fr/AjaxControlToolkit.resources.dll" publishTime="07/10/2014 09:11:36" />
     <file relUrl="Resources/Scripts/bootstrap.min.js" publishTime="10/06/2014 16:50:36" />
-    <file relUrl="bin/ProyectosWeb.dll" publishTime="10/23/2014 18:06:48" />
+    <file relUrl="bin/ProyectosWeb.dll" publishTime="10/24/2014 11:53:00" />
     <file relUrl="bin/de/AjaxControlToolkit.resources.dll" publishTime="07/10/2014 09:11:36" />
-    <file relUrl="bin/Models.pdb" publishTime="10/23/2014 18:06:47" />
+    <file relUrl="bin/Models.pdb" publishTime="10/24/2014 11:52:59" />
     <file relUrl="bin/Microsoft.Data.OData.dll" publishTime="07/10/2014 09:11:38" />
+    <file relUrl="images/ui-icons_454545_256x240.png" publishTime="10/24/2014 10:10:33" />
     <file relUrl="LoginSources/img/available-on-the-app-store.png" publishTime="07/10/2014 15:37:46" />
     <file relUrl="bin/tr-TR/AjaxControlToolkit.resources.dll" publishTime="07/10/2014 09:11:36" />
     <file relUrl="CapturaTareas.aspx" publishTime="08/14/2014 16:36:00" />
@@ -251,10 +257,11 @@
     <file relUrl="bin/ko/AjaxControlToolkit.resources.dll" publishTime="07/10/2014 09:11:36" />
     <file relUrl="bin/AjaxMin.dll" publishTime="07/10/2014 09:11:36" />
     <file relUrl="bin/ru/AjaxControlToolkit.resources.dll" publishTime="07/10/2014 09:11:36" />
-    <file relUrl="bin/BusinessLogic.pdb" publishTime="10/23/2014 18:06:48" />
-    <file relUrl="Style/Style.css" publishTime="07/10/2014 12:30:26" />
+    <file relUrl="bin/BusinessLogic.pdb" publishTime="10/24/2014 11:52:59" />
+    <file relUrl="Style/Style.css" publishTime="10/24/2014 11:25:14" />
     <file relUrl="bin/ru/System.Spatial.resources.dll" publishTime="07/10/2014 09:11:38" />
-    <file relUrl="bin/DAOS.dll" publishTime="10/23/2014 18:06:47" />
+    <file relUrl="bin/DAOS.dll" publishTime="10/24/2014 11:52:59" />
+    <file relUrl="images/ui-icons_222222_256x240.png" publishTime="10/24/2014 10:10:33" />
     <file relUrl="bin/es/System.Spatial.resources.dll" publishTime="07/10/2014 09:11:38" />
     <file relUrl="bin/nl/AjaxControlToolkit.resources.dll" publishTime="07/10/2014 09:11:36" />
     <file relUrl="bin/es/Microsoft.Data.Edm.resources.dll" publishTime="07/10/2014 09:11:38" />
@@ -265,21 +272,24 @@
     <file relUrl="bin/it/AjaxControlToolkit.resources.dll" publishTime="07/10/2014 09:11:36" />
     <file relUrl="LoginSources/fancybox/fancy_loading.png" publishTime="07/10/2014 15:37:46" />
     <file relUrl="bin/BCrypt.Net.dll" publishTime="07/10/2014 09:11:36" />
+    <file relUrl="images/ui-icons_cd0a0a_256x240.png" publishTime="10/24/2014 10:10:33" />
     <file relUrl="jquery-tree-checkboxes/minified/jquery.tree.min.js" publishTime="07/18/2014 18:20:42" />
     <file relUrl="LoginSources/js/init.js" publishTime="07/10/2014 15:37:46" />
     <file relUrl="bin/Microsoft.Data.Edm.xml" publishTime="07/10/2014 09:11:38" />
     <file relUrl="LoginSources/img/screenshot.jpg" publishTime="07/10/2014 15:37:46" />
     <file relUrl="bin/System.Spatial.xml" publishTime="07/10/2014 09:11:38" />
+    <file relUrl="images/ui-bg_flat_75_ffffff_40x100.png" publishTime="10/24/2014 10:17:49" />
     <file relUrl="LoginSources/fancybox/fancy_title_left.png" publishTime="07/10/2014 15:37:46" />
     <file relUrl="bin/zh-Hans/System.Spatial.resources.dll" publishTime="07/10/2014 09:11:38" />
     <file relUrl="bin/HtmlAgilityPack.pdb" publishTime="07/10/2014 09:11:38" />
-    <file relUrl="bin/ProyectosWeb.XmlSerializers.dll" publishTime="10/23/2014 18:06:48" />
+    <file relUrl="bin/ProyectosWeb.XmlSerializers.dll" publishTime="10/24/2014 11:53:00" />
     <file relUrl="LoginSources/css/bootstrap-responsive.min.css" publishTime="07/10/2014 15:37:46" />
     <file relUrl="bin/es/Microsoft.Data.OData.resources.dll" publishTime="07/10/2014 09:11:38" />
     <file relUrl="bin/pl/AjaxControlToolkit.resources.dll" publishTime="07/10/2014 09:11:36" />
     <file relUrl="bin/ru/Microsoft.Data.Edm.resources.dll" publishTime="07/10/2014 09:11:38" />
     <file relUrl="bin/ko/Microsoft.Data.Edm.resources.dll" publishTime="07/10/2014 09:11:38" />
     <file relUrl="LoginSources/js/bootstrap-scrollspy.js" publishTime="07/10/2014 15:37:46" />
+    <file relUrl="images/ui-bg_glass_65_ffffff_1x400.png" publishTime="10/24/2014 10:17:50" />
   </publishProfile>
   <publishProfile publishUrl="C:\Users\Luis Fernando Garcia\Desktop\Publicar Server" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Publicar Server 31" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="False" />
 </publishData>

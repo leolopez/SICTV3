@@ -105,8 +105,7 @@ namespace ProyectosWeb
         protected void Page_Load(object sender, EventArgs e)
         {
             Thread.CurrentThread.CurrentCulture = new CultureInfo("es-ES", false);
-            //actualizado sliding en web.config, eliminar usuarios admin
-            // Get the authentication cookie
+            
             LblSinAcessoOpciones.Text = "";
             if (_CAUsuarioBL.controlAccesoPantallasModulos(Request, Response, this.Page, redirectinicio, Context.User.Identity.Name, admin, linkantarior))
             {
@@ -129,7 +128,7 @@ namespace ProyectosWeb
                     MultiView2.ActiveViewIndex = -1;
                     MultiViewTareaGrid.ActiveViewIndex = -1;
                     activarbotonTarea(false);
-                    //!Context.User.Identity.AuthenticationType.ToLower().Equals("ntlm")   
+                    
                     //desactivar Modulo  consulta/reportes
                     MultiViewConsultaReporte.ActiveViewIndex = -1;
 
@@ -1599,6 +1598,7 @@ namespace ProyectosWeb
 
         protected void GridView1_RowEditing(object sender, GridViewEditEventArgs e)
         {
+            linkActivadoPrevio(System.Drawing.Color.Blue);
             GridView1.EditIndex = e.NewEditIndex;
             gvbind();
             GridView1.Rows[e.NewEditIndex].Cells[GridView1.Rows[e.NewEditIndex].Cells.Count - 1].Attributes.Remove("onclick");              
@@ -1607,6 +1607,7 @@ namespace ProyectosWeb
 
         protected void GridView1_PageIndexChanging(object sender, GridViewPageEventArgs e)
         {
+            linkActivadoPrevio(System.Drawing.Color.Blue);
             GridView1.PageIndex = e.NewPageIndex;
             ViewState["Index"] = PageIndex;
             gvbind();
@@ -1614,6 +1615,7 @@ namespace ProyectosWeb
         }
         protected void GridView1_RowCancelingEdit(object sender, GridViewCancelEditEventArgs e)
         {
+            linkActivadoPrevio(System.Drawing.Color.Blue);
             GridView1.EditIndex = -1;
             ViewState["Index"] = PageIndex;
             gvbind();
@@ -1621,6 +1623,7 @@ namespace ProyectosWeb
 
         protected void GridView1_RowDeleting(object sender, GridViewDeleteEventArgs e)
         {
+            linkActivadoPrevio(System.Drawing.Color.Blue);
             TableCell cell = GridView1.Rows[e.RowIndex].Cells[0];
             conn.Open();
             SqlCommand cmd = new SqlCommand("update "+PageIndex+" set Estado='1' where ID"+PageIndex+"="+Convert.ToInt32(cell.Text), conn);
@@ -1632,6 +1635,7 @@ namespace ProyectosWeb
 
         protected void GridView1_RowUpdating(object sender, GridViewUpdateEventArgs e)
         {
+            linkActivadoPrevio(System.Drawing.Color.Blue);
             TextBox Clave,Nombre, Desc, Cliente, FechaInicio, FechaFinEstimada, FechaFinReal, Tecnologias;
             GridViewRow row = (GridViewRow)GridView1.Rows[e.RowIndex];
             TableCell ID = GridView1.Rows[e.RowIndex].Cells[0];
@@ -3810,7 +3814,8 @@ namespace ProyectosWeb
         }
 
         protected void GridView2Seg_RowEditing(object sender, GridViewEditEventArgs e)
-        {            
+        {
+            linkActivadoPrevio(System.Drawing.Color.Blue);
             if (PageIndex.Equals("Sistemas"))
             {
                 lblUpdateSistema.Text = "";
@@ -3871,6 +3876,7 @@ namespace ProyectosWeb
 
         protected void GridView2Seg_PageIndexChanging(object sender, GridViewPageEventArgs e)
         {
+            linkActivadoPrevio(System.Drawing.Color.Blue);
             if (PageIndex.Equals("Consultas"))
             {
             GridViewCRConsulta.PageIndex = e.NewPageIndex;
@@ -3899,6 +3905,7 @@ namespace ProyectosWeb
         }
         protected void GridView2Seg_RowCancelingEdit(object sender, GridViewCancelEditEventArgs e)
         {
+            linkActivadoPrevio(System.Drawing.Color.Blue);
             if (PageIndex.Equals("Usuarios"))
             {
                 GridView2Seg.EditIndex = -1;
@@ -3917,6 +3924,7 @@ namespace ProyectosWeb
 
         protected void GridView2Seg_RowDeleting(object sender, GridViewDeleteEventArgs e)
         {
+            linkActivadoPrevio(System.Drawing.Color.Blue);
             TableCell cell = null;
             string idtabla = "";
             if (PageIndex.Equals("Usuarios"))
@@ -3993,11 +4001,12 @@ namespace ProyectosWeb
 
             ViewState["Index"] = PageIndex;
             gvbindSeg();
-
+            linkActivadoPrevio(System.Drawing.Color.Blue);
         }
 
         protected void GridView2Seg_RowUpdating(object sender, GridViewUpdateEventArgs e)
         {
+            linkActivadoPrevio(System.Drawing.Color.Blue);
             GridView opcion = null;
             if (PageIndex.Equals("Usuarios")) {
                 opcion = GridView2Seg;
@@ -4652,6 +4661,7 @@ namespace ProyectosWeb
 
         protected void GridView1_RowCommand(object sender, GridViewCommandEventArgs e)
         {
+            linkActivadoPrevio(System.Drawing.Color.Blue);
             if (e.CommandName == "Select")
             {
                 switch (PageIndex)

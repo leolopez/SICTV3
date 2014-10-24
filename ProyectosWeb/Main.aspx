@@ -6,20 +6,23 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
-    <script type="text/javascript" src="http://ajax.microsoft.com/ajax/beta/0911/Start.debug.js"></script>
+      <script type="text/javascript" src="http://ajax.microsoft.com/ajax/beta/0911/Start.debug.js"></script>
     <script src="http://ajax.microsoft.com/ajax/beta/0911/extended/ExtendedControls.debug.js"
-        type="text/javascript"></script>  
-    <link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+        type="text/javascript"></script>
+   
+   <link rel="stylesheet" href="css/jquery-ui.css"/>
     <link rel="stylesheet" href="Style/Style.css" />
-    <link rel="stylesheet" href="css/Seguridad/Seguridad.css" /> 
+    <link rel="stylesheet" href="css/Seguridad/Seguridad.css" />         
+
+<script src="scripts/seguridad/Seguridad.js" ></script>
+ <script src="scripts/ConfirmDialog/jquery.easy-confirm-dialog.js"></script>
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
     <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
-    <script src="scripts/ConfirmDialog/jquery.easy-confirm-dialog.js"></script>
-    <script runat="server" type="text/c#">                          
-</script>
-    <script>      
+   <script type="text/javascript" src="validacion/jquery.validate.js"></script>
+           
+    <script>
         $(function () {
-            var activo = parseInt($('[id*=accordionInd]').val());            
+            var activo = parseInt($('[id*=accordionInd]').val());
             $("#accordion").accordion({ collapsible: true,
                 animated: 'slide',
                 autoHeight: false,
@@ -27,12 +30,6 @@
             });
         });     
     </script>
-<!-- include jQuery and jQueryUI libraries --><%--
-<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
-<script type="text/javascript" src="http://code.jquery.com/ui/1.10.1/jquery-ui.js"></script>
-<link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.10.1/themes/base/jquery-ui.css"/>--%>
-<script type="text/javascript" src="validacion/jquery.validate.js"></script>
-<script src="scripts/seguridad/Seguridad.js" ></script>
 
 <!-- include plugin -->
 <script type="text/javascript" src="jquery-tree-checkboxes/minified/jquery.tree.min.js"></script>
@@ -62,129 +59,112 @@
     <script type="text/javascript" src="validacion/jquery.validate.js"></script>
     <script type="text/javascript">
 
-        $(function () {
 
-            $('a').mouseenter(function () {
-                var col = $(this).css('color');
-                if (col == 'rgb(0, 0, 0)') {
-                    $(this).css('color', 'rgb(0, 85, 128)');
-                }
-            });
-            $('a').mouseleave(function () {
-                var col = $(this).css('color');
-                if (col != 'rgb(0, 0, 255)' && col == 'rgb(0, 0, 0)' || col == 'rgb(0, 85, 128)') {
-                    $(this).css('color', 'black');
-                }
-            });
+                     $(function () {
 
-            setInterval(tiempoTarea, 1000);
-            function tiempoTarea() {
-                $.ajax({
-                    type: "POST",
-                    url: "Main.aspx/tiempo",
-                    contentType: "application/json; charset=utf-8",
-                    dataType: "json",
-                    success: function (data) {
-                        $("[id*=LabelSeguimientoTarea]").text(data.d.toString());
-                    },
-                    failure: function () {
+                         $('a').mouseenter(function () {
+                             var col = $(this).css('color');
+                             if (col == 'rgb(0, 0, 0)') {
+                                 $(this).css('color', 'rgb(0, 85, 128)');
+                             }
+                         });
+                         $('a').mouseleave(function () {
+                             var col = $(this).css('color');
+                             if (col != 'rgb(0, 0, 255)' && col == 'rgb(0, 0, 0)' || col == 'rgb(0, 85, 128)') {
+                                 $(this).css('color', 'black');
+                             }
+                         });
 
-                    }
-                });
-            }
+                         setInterval(tiempoTarea, 1000);
+                         function tiempoTarea() {
+                             $.ajax({
+                                 type: "POST",
+                                 url: "Main.aspx/tiempo",
+                                 contentType: "application/json; charset=utf-8",
+                                 dataType: "json",
+                                 success: function (data) {
+                                     $("[id*=LabelSeguimientoTarea]").text(data.d.toString());
+                                 },
+                                 failure: function () {
 
-            //        $("#ButtonEliminaModulo").on('click', function () {
-            //            var b = $("[id*=ButtonEliminaModulo]");
-            //            dialogo(b);
-            //        });
-            //        $("#ButtonDeletePantallaOpcion").on('click', function () {
-            //            var b = $("[id*=ButtonDeletePantallaOpcion]");
-            //            dialogo(b);
-            //        });
+                                 }
+                             });
+                         }                     
 
-            function dialogo(boton) {
-                event.preventDefault();
-                $("#dialog-confirm").dialog({
-                    height: 200,
-                    width: 300,
-                    modal: true,
-                    buttons: {
-                        "Si": function () {
-                            $(this).dialog("close");
-                            boton.click();
-                        },
+                         function dialogo(boton) {
+                             event.preventDefault();
+                             $("#dialog-confirm").dialog({
+                                 height: 200,
+                                 width: 300,
+                                 modal: true,
+                                 buttons: {
+                                     "Si": function () {
+                                         $(this).dialog("close");
+                                         boton.click();
+                                     },
 
-                        "No": function () {
-                            $(this).dialog("close");
-                        }
-                    }
-                });
-            }
+                                     "No": function () {
+                                         $(this).dialog("close");
+                                     }
+                                 }
+                             });
+                         }
 
 
 
-            $('#<%=LinkProyecto.ClientID%>').on('click', function () {
-                $('#<%=LabelNav.ClientID%>').val("Proyectos");
-            });
+                         $('#<%=LinkProyecto.ClientID%>').on('click', function () {
+                             $('#<%=LabelNav.ClientID%>').val("Proyectos");
+                         });
 
-            $('#ButtonAgregarGU').bind('click', function () {
-                var options = $('[id*=ListBoxGruposSeg] option:selected');
-                for (var i = 0; i < options.length; i++) {
-                    var opt = $(options[i]).clone();
-                    $(options[i]).remove();
-                    $('[id*=ListBoxGruposAsigSeg]').append(opt);
-                }
-            });
-            $('#ButtonEliminarGU').bind('click', function () {
-                var options = $('[id*=ListBoxGruposAsigSeg] option:selected');
-                for (var i = 0; i < options.length; i++) {
-                    var opt = $(options[i]).clone();
-                    $(options[i]).remove();
-                    $('[id*=ListBoxGruposSeg]').append(opt);
-                }
-            });
+                         $('#ButtonAgregarGU').bind('click', function () {
+                             var options = $('[id*=ListBoxGruposSeg] option:selected');
+                             for (var i = 0; i < options.length; i++) {
+                                 var opt = $(options[i]).clone();
+                                 $(options[i]).remove();
+                                 $('[id*=ListBoxGruposAsigSeg]').append(opt);
+                             }
+                         });
+                         $('#ButtonEliminarGU').bind('click', function () {
+                             var options = $('[id*=ListBoxGruposAsigSeg] option:selected');
+                             for (var i = 0; i < options.length; i++) {
+                                 var opt = $(options[i]).clone();
+                                 $(options[i]).remove();
+                                 $('[id*=ListBoxGruposSeg]').append(opt);
+                             }
+                         });
 
-            $('#btnATAsignar').bind('click', function () {
-                var options = $('[id*=ListBoxAsignarTarea] option:selected');
-                for (var i = 0; i < options.length; i++) {
-                    var opt = $(options[i]).clone();
-                    $(options[i]).remove();
-                    $('[id*=ListBoxTareaAsignada]').append(opt);
-                }
-            });
+                         $('#btnATAsignar').bind('click', function () {
+                             var options = $('[id*=ListBoxAsignarTarea] option:selected');
+                             for (var i = 0; i < options.length; i++) {
+                                 var opt = $(options[i]).clone();
+                                 $(options[i]).remove();
+                                 $('[id*=ListBoxTareaAsignada]').append(opt);
+                             }
+                         });
 
-            $('#btnATDesasignar').bind('click', function () {
-                var options = $('[id*=ListBoxTareaAsignada] option:selected');
-                for (var i = 0; i < options.length; i++) {
-                    var opt = $(options[i]).clone();
-                    $(options[i]).remove();
-                    $('[id*=ListBoxAsignarTarea]').append(opt);
-                }
-            });
+                         $('#btnATDesasignar').bind('click', function () {
+                             var options = $('[id*=ListBoxTareaAsignada] option:selected');
+                             for (var i = 0; i < options.length; i++) {
+                                 var opt = $(options[i]).clone();
+                                 $(options[i]).remove();
+                                 $('[id*=ListBoxAsignarTarea]').append(opt);
+                             }
+                         });
 
-//            function MoverDatosListBox() {
-//                var opts = document.getElementById("ListBoxTareaAsignada");
-//                for (var i = 0; i < opts.length; i++) {
-//                    if (opts.options[i].selected) {
-//                        var opt = opts.options[i].clone();
-//                        opts.options[i].remove();
-//                        var opt1 = document.getElementById("ListBoxAsignarTarea");
-//                        opt1.append(opt1);
-//                    }
-//                }
-//            };
+                        
 
-            $("#TextBoxFechaoIniSis").datepicker({ dateFormat: "yy/mm/dd" });
-            $("#TextBoxFechaFinEsSis").datepicker({ dateFormat: "yy/mm/dd" });
-            $("#TextBoxFinRealSis").datepicker({ dateFormat: "yy/mm/dd" });
+                         $("#TextBoxFechaoIniSis").datepicker({ dateFormat: "yy/mm/dd" });
+                         $("#TextBoxFechaFinEsSis").datepicker({ dateFormat: "yy/mm/dd" });
+                         $("#TextBoxFinRealSis").datepicker({ dateFormat: "yy/mm/dd" });
 
-            $('#TextBoxFinRCR').datepicker({ dateFormat: "yy/mm/dd" });
-            $('#TextBoxFechaFinEstimCR ').datepicker({ dateFormat: "yy/mm/dd" });
-            $('#TextBoxFechaInicioCR ').datepicker({ dateFormat: "yy/mm/dd" });
+                         $('#TextBoxFinRCR').datepicker({ dateFormat: "yy/mm/dd" });
+                         $('#TextBoxFechaFinEstimCR ').datepicker({ dateFormat: "yy/mm/dd" });
+                         $('#TextBoxFechaInicioCR ').datepicker({ dateFormat: "yy/mm/dd" });
 
-        });
+                     });
 
         $(document).ready(function () {
+          
 
             function showConfirm(event) {
                 event.stopPropagation();
@@ -728,6 +708,7 @@ function (value, element, params) {
 //                                $('#TextBoxFechaInicio').rules("remove");
 //                            }
 //                        }
+          
 
        });   
     
@@ -791,7 +772,7 @@ function (value, element, params) {
                                     <asp:LinkButton CssClass="linkselect"  ID="LinkcuentaUsSeg" CommandName="sub,,2" runat="server" OnClick="CuentaUsuarioOnClick">Cuenta</asp:LinkButton></li>                                                                
                             </ul>
                         </li>
-                        <li class="liacordion" >
+                        <li  >
                             <asp:LinkButton ID="LinkGruposSeg" CssClass="letrasub" CommandName="Grupos,,3" runat="server" OnClick="GruposOnClick">Grupos</asp:LinkButton></li>
                         <li class="liacordion">
                             <asp:LinkButton ID="LinkPerfilesSeg" CommandName="Perfiles,,4" runat="server" OnClick="PerfilesOnClick">Perfiles</asp:LinkButton></li>
@@ -1871,6 +1852,7 @@ function (value, element, params) {
             </p>
         </div>
     </div>
+     
      <script type="text/javascript">
          Sys.debug = true;
          Sys.require(Sys.components.filteredTextBox, function () {
@@ -1953,9 +1935,11 @@ function (value, element, params) {
                  FilterType: Sys.Extended.UI.FilterTypes.Custom | Sys.Extended.UI.FilterTypes.UppercaseLetters | Sys.Extended.UI.FilterTypes.LowercaseLetters
                 | Sys.Extended.UI.FilterTypes.Numbers
              });
-         });       
+         });
 
-         $(window).bind('load', function () {             
+         $(window).bind('load', function () {
+
+                      
                  var elimina = $('#<%=HidnoEliminar.ClientID%>').val();
                  if (elimina !== "0") {
                      $('#<%=HidnoEliminar.ClientID%>').val('0');
@@ -1968,7 +1952,8 @@ function (value, element, params) {
                  }             
          });
     </script>
+   
     </form>
-    
+     
 </body>
 </html>
